@@ -1,10 +1,10 @@
 # Simple Quest Abandoner
 
-A lightweight addon for WoW Forever (3.3.5a) and Retail that allows you to instantly abandon quests by holding **Ctrl and right-clicking** a quest in your quest log.
+A lightweight addon for WoW Forever (3.3.5a) and Retail that allows you to instantly abandon quests by holding **Ctrl and left-clicking** a quest in your quest log.
 
 ## Features
 
-- **Instant Quest Abandon** — Ctrl + Right-click any quest to abandon it immediately
+- **Instant Quest Abandon** — Ctrl + Left-click any quest to abandon it immediately
 - **No Confirmation Dialog** — skips the default "Are you sure?" prompt
 - **Lightweight** — no dependencies, no configuration, no saved variables
 - **Blizzard API Based** — uses the standard WoW interface functions
@@ -20,12 +20,12 @@ A lightweight addon for WoW Forever (3.3.5a) and Retail that allows you to insta
 ## Usage
 
 - **Left-click** — select a quest normally
-- **Ctrl + Right-click** — instantly abandon the selected quest
+- **Ctrl + Left-click** — instantly abandon the selected quest
 
 ## Warning
 
 This addon removes the confirmation dialog.  
-Be careful when using Ctrl + Right-click, as quests will be abandoned immediately.
+Be careful when using Ctrl + Left-click, as quests will be abandoned immediately.
 
 ## Compatibility
 
