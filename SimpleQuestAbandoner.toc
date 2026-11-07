@@ -1,0 +1,7 @@
+## Interface: 120105, 120100, 120001
+## Title: SimpleQuestAbandoner
+## Notes: Hold Ctrl and right-click a quest to abandon it without confirmation
+## Version: 1.2
+## Author: zimbabd
+
+SimpleQuestAbandoner.lua
