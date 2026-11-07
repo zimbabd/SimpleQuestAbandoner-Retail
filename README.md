@@ -12,8 +12,8 @@ A lightweight addon for WoW Forever (3.3.5a) and Retail that allows you to insta
 ## Installation
 
 1. Download or clone the repository
-2. Extract the `SimpleQuestAbandon` folder into:
-3. Rename the folder from SimpleQuestAbandon-main to SimpleQuestAbandon if needed.
+2. Extract the `SimpleQuestAbandon-retail` folder into:
+3. Rename the folder to `SimpleQuestAbandon`.
 4. Restart World of Warcraft
 5. Enable the addon in the character selection screen
 
