@@ -10,6 +10,24 @@ if C_QuestLog and QuestMapLogTitleButton_OnClick and hooksecurefunc then
             CloseMenus()
         end
     end)
+elseif SelectQuestLogEntry and SetAbandonQuest and AbandonQuest then
+    local originalOnClick = QuestLogTitleButton_OnClick
+
+    function QuestLogTitleButton_OnClick(self, button, down)
+        if button == "RightButton" and IsControlKeyDown() and not self.isHeader then
+            local questIndex = self:GetID()
+            if questIndex then
+                SelectQuestLogEntry(questIndex)
+                SetAbandonQuest()
+                AbandonQuest()
+            end
+            return
+        end
+
+        if originalOnClick then
+            return originalOnClick(self, button, down)
+        end
+    end
 end
 
 print("|cff00ff00Simple Quest Abandoner:|r Loaded! Hold Ctrl and right-click a quest to abandon.")

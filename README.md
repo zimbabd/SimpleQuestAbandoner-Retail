@@ -1,27 +1,38 @@
-# Simple Quest Abandoner (Retail)
+# Simple Quest Abandoner
 
-A lightweight World of Warcraft Retail addon that abandons an eligible quest when you hold **Ctrl** and right-click it in the quest log.
+A lightweight addon for WoW Forever (3.3.5a) and Retail that allows you to instantly abandon quests by holding **Ctrl and right-clicking** a quest in your quest log.
 
 ## Features
 
-- Abandon quests without the confirmation dialog
-- Uses the Retail quest log API
-- No dependencies, configuration, or saved variables
+- **Instant Quest Abandon** — Ctrl + Right-click any quest to abandon it immediately
+- **No Confirmation Dialog** — skips the default "Are you sure?" prompt
+- **Lightweight** — no dependencies, no configuration, no saved variables
+- **Blizzard API Based** — uses the standard WoW interface functions
 
 ## Installation
 
-1. Download the repository or a release archive.
-2. Place the `SimpleQuestAbandoner` folder in `World of Warcraft\_retail_\Interface\AddOns`.
-3. Enable the addon from the character selection screen.
+1. Download or clone the repository
+2. Extract the `SimpleQuestAbandon` folder into:
+3. Rename the folder from SimpleQuestAbandon-main to SimpleQuestAbandon if needed.
+4. Restart World of Warcraft
+5. Enable the addon in the character selection screen
 
 ## Usage
 
-Hold **Ctrl** and right-click an abandonable quest in the quest log.
-
-## Compatibility
-
-- World of Warcraft Retail
+- **Left-click** — select a quest normally
+- **Ctrl + Right-click** — instantly abandon the selected quest
 
 ## Warning
 
-Abandoning a quest with Ctrl + right-click is immediate and does not show a confirmation dialog.
+This addon removes the confirmation dialog.  
+Be careful when using Ctrl + Right-click, as quests will be abandoned immediately.
+
+## Compatibility
+
+- WoW Forever (Wrath of the Lich King 3.3.5a)
+- World of Warcraft Retail
+- No dependencies required
+
+## License
+
+MIT License
